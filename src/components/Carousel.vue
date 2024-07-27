@@ -26,9 +26,7 @@ import data from '../content/data';
         const track = this.$refs.carouselTrack;
         const carouselContent = this.$refs.carouselContent;
         const imageCount = carouselContent.querySelectorAll('img').length;
-        console.log('Number of images:', imageCount);
         let currentPosition = 0;
-        let animationId;
         const x = -180 * imageCount;
 
         const animate = () => {
@@ -102,6 +100,7 @@ import data from '../content/data';
   
   .carousel-track img {
     width: 80px;
+    height: 80px;
     display: block; 
   }
   </style>

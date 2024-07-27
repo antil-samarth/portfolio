@@ -8,7 +8,7 @@ import data from '../content/data';
         <Headline headline="About" />
         <div class="about-content">
             <div class="about-image">
-                <img src="../assets/hero.png" alt="Shailly Deep">
+                <img src="../assets/hero.webp" alt="Samarth Pal Antil">
             </div>
             <div class="about-text">
                 <div class="greeting">

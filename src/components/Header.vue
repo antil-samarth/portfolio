@@ -4,7 +4,7 @@
       <nav class="nav">
         <div class="drop-button">
           <button class="drop-button" @click="toggleDropdown">
-            <img src="../assets/menu.png" alt="menu" class="menu">
+            <img src="../assets/menu.webp" alt="menu" class="menu">
           </button>
         </div>
         <Transition name="slide-fade">

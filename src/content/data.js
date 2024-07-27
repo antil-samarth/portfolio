@@ -1,25 +1,27 @@
 // This file contains the content for the portfolio website.
 
 // Import images
-import hospitalDataAnalysis from '../assets/hospital-data-analysis.png';
+import hospitalDataAnalysis from '../assets/hospital-data-analysis.webp';
 
-import python from '../assets/python.png';
-import mysql from '../assets/mysql.png';
-import react from '../assets/react.png';
+import python from '../assets/python.webp';
+import mysql from '../assets/mysql.webp';
+import react from '../assets/react.webp';
+import vue from '../assets/vue.webp';
 
 export default{
     hero: {
         textContent: "Samarth Pal Antil",
         subText: "Currently looking for opportunities",
         desc: ["I'm a Software Developer based in New Delhi, India."," Proficient in Python, Machine Learning, and Full Stack Development."],
-        funFact: ["Fun Fact: This website is also built using Vue."],
+        funFact: ["Fun Fact: This website is built using Vue."],
     },
 
     carousel: {
         images: [
             python,
             mysql,
-            react
+            react,
+            vue
         ]
     },
 

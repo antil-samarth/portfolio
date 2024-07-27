@@ -6,7 +6,7 @@ import data from '../content/data';
     <section class="hero">
         <div class="container">
             <div class="hero-content">
-                <img src="../assets/hero.png" alt="Shailly Deep" class="hero-image">
+                <img src="../assets/hero.webp" alt="Samarth Pal Antil" class="hero-image">
                 <div class="text-content">
                     <h1>{{ hero.textContent }}</h1>
                     <div class="sub-text">
