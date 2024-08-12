@@ -8,6 +8,8 @@ import mysql from '../assets/mysql.webp';
 import react from '../assets/react.webp';
 import vue from '../assets/vue.webp';
 
+import srm from '../assets/srm.webp';
+
 export default{
     hero: {
         textContent: "Samarth Pal Antil",
@@ -84,6 +86,15 @@ export default{
                 "Collaborated closely with the team leader to gain insights into ongoing projects."
             ],
             "isOpen": false
+        }
+    ],
+
+    "education": [
+        {
+            "logo": srm,
+            "degree": "Bachelor of Technology in Computer Science and Engineering",
+            "institute": "SRM University",
+            "duration": "2020 - 2024",
         }
     ],
 

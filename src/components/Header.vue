@@ -148,7 +148,7 @@ export default {
 
   .drop-button {
     display: block;
-    background-color: #1D1D1D;
+    background-color: #888;
     border-radius: 2rem;
     border: none;
     border-width: 0;

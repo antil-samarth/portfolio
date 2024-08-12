@@ -8,6 +8,7 @@ import Experience from './components/Experience.vue';
 import Skills from './components/Skills.vue';
 import Footer from './components/Footer.vue';
 import ToTop from './components/ToTop.vue';
+import Education from './components/Education.vue';
 </script>
 
 <template>
@@ -17,10 +18,11 @@ import ToTop from './components/ToTop.vue';
       <div class="container">
         <Hero />
         <Carousel />
-        <Projects />
-        <About />
+        <Education />
         <Experience />
+        <Projects />
         <Skills />
+        <About />
       </div>
     </main>
     <Footer />

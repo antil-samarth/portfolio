@@ -28,6 +28,7 @@ import data from '../content/data';
         const imageCount = carouselContent.querySelectorAll('img').length;
         let currentPosition = 0;
         const x = -180 * imageCount;
+        let animationId;
 
         const animate = () => {
           currentPosition -= 0.7; // Adjust speed here
