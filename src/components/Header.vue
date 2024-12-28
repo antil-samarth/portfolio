@@ -8,28 +8,28 @@
           </button>
         </div>
         <Transition name="slide-fade">
-        <div class="drop-menu">
-        <div class="links">
-          <a href="#Projects" class="link" @click.prevent="scrollToSection('Projects')">
-            Work
-          </a>
-          <a href="#About" class="link" @click.prevent="scrollToSection('About')">
-            About
-          </a>
-          <a href="#Experience" class="link" @click.prevent="scrollToSection('Experience')">
-            Experience
-          </a>
-          <a href="#Skills" class="link" @click.prevent="scrollToSection('Skills')">
-            Skills
-          </a>
-        </div>
-        <button class="talk-button" @click="scrollToSection('Footer')">
-          <span class="button-text">LET'S TALK</span>
-          <img src="../assets/arrow.svg" alt="arrow" class="arrow">
-        </button>
-        
-        </div>
-      </Transition>
+          <div class="drop-menu">
+            <div class="links">
+              <a href="#Projects" class="link" @click.prevent="scrollToSection('Projects')">
+                Work
+              </a>
+              <a href="#About" class="link" @click.prevent="scrollToSection('About')">
+                About
+              </a>
+              <a href="#Experience" class="link" @click.prevent="scrollToSection('Experience')">
+                Experience
+              </a>
+              <a href="#Skills" class="link" @click.prevent="scrollToSection('Skills')">
+                Skills
+              </a>
+            </div>
+            <button class="talk-button" @click="scrollToSection('Footer')">
+              <span class="button-text">LET'S TALK</span>
+              <img src="../assets/arrow.svg" alt="arrow" class="arrow">
+            </button>
+
+          </div>
+        </Transition>
       </nav>
     </div>
   </header>
@@ -66,7 +66,6 @@ export default {
 </script>
 
 <style scoped>
-
 .drop-button {
   display: none;
 }
@@ -125,13 +124,13 @@ export default {
 
 }
 
-.drop-menu{
+.drop-menu {
   display: flex;
   flex: auto;
 
 }
 
-/* Mobile Responsiveness (Example) */
+/* Mobile Responsiveness */
 @media (max-width: 768px) {
   .nav {
     flex-direction: column;
@@ -151,6 +150,8 @@ export default {
     background-color: #888;
     border-radius: 2rem;
     border: none;
+    position: absolute;
+    left: 1em;
     border-width: 0;
   }
 
@@ -166,15 +167,23 @@ export default {
     flex-direction: column;
     gap: 1em;
     margin-top: 1em;
+    position: relative;
+    right: 5em;
+    padding-top: 2em;
   }
 }
 
-.slide-fade-enter-active, .slide-fade-leave-active {
+.slide-fade-enter-active,
+.slide-fade-leave-active {
   transition: all 0.3s ease;
 }
-.slide-fade-enter, .slide-fade-leave-to /* .slide-fade-leave-active in <2.1.8 */ {
+
+.slide-fade-enter,
+.slide-fade-leave-to
+
+/* .slide-fade-leave-active in <2.1.8 */
+  {
   transform: translateY(-10px);
   opacity: 0;
 }
-
 </style>
