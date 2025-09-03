@@ -13,7 +13,7 @@ import srm from '../assets/srm.webp';
 export default{
     hero: {
         textContent: "Samarth Pal Antil",
-        subText: "Currently looking for opportunities",
+        subText: "Working as a Systems Engineer at TCS",
         desc: ["I'm a Software Developer based in New Delhi, India."," Proficient in Python, Machine Learning, and Full Stack Development."],
         funFact: ["Fun Fact: This website is built using Vue."],
     },
