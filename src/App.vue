@@ -20,8 +20,8 @@ import Education from './components/Education.vue';
         <Carousel />
         <Education />
         <Experience />
-        <Projects />
         <Skills />
+        <Projects />
         <About />
       </div>
     </main>
