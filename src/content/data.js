@@ -66,6 +66,15 @@ export default{
 
     "experience": [
         {
+            "role": "Systems Engineer",
+            "company": "Tata Consultancy Services Limited",
+            "duration": "January 2025 - Present",
+            "responsibilities": [
+                "Python, Flask, MongoDB, MySQL",
+            ],
+            "isOpen": false
+        },
+        {
             "role": "Software Development Engineer Intern",
             "company": "Master-O",
             "duration": "July 2023 - August 2023",
